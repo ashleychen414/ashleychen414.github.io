@@ -1,0 +1,38 @@
+body {
+  font-family: 'Space Mono', monospace;
+  background: lightgray;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 { 
+  background: #333;
+  color: white;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  padding: 30px;
+  margin-bottom: 5px;
+}
+
+.yellow {background: #f1c40f;
+
+}
+
+.orange {
+  background: #e67e22;
+}
+
+.red {
+  background: #e74c3c;
+}
+/* 
+body background lightgrey;
+header background, lorem text #333
+lorem-1 background #f1c40f
+lorem-2 background #e67e22
+lorem-3 background #e74c3c */

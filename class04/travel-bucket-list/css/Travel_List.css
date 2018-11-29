@@ -1,0 +1,47 @@
+.wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(243, 243, 243);
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+/* using a div at the top before the body will effect the css of the parent (in this case the body element) because the div is technically a 'box' */
+
+
+img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+} /* images are considered inline elements so need to be marked as a block element or else they aren't responsive */
+
+h1 {
+    color: white;
+    background: rgb(9, 202, 159);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.US {
+    background: rgb(196, 222, 252);
+    padding: 30px;
+    margin: 30px;
+}
+
+.UShighlight {
+    background: rgb(120, 233, 252);
+}
+
+p {
+    text-align: justify;
+}
+
+.Reykjavik {
+    background: rgb(194, 242, 227);
+    padding: 30px;
+    margin: 30px;
+}
+
+.iceland {
+    background: rgb(9, 202, 159);
+}

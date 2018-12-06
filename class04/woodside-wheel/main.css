@@ -13,11 +13,12 @@ header{
 }
 .top-header {
     font-family: Lato;
-    font-weight: lighter;
 }
 
 .title {
     color: #e2231a;
+    font-weight: normal;
+    /*font weight needs to be set on the child, since the h1/h2 etc will override whatever font weight is set at the parent level */
 }
 
 .subtitle {

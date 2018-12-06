@@ -1,0 +1,47 @@
+body {
+	font-family: 'Zilla Slab', serif;
+	line-height: 1.8;
+  background-color:#fff;
+  color: #1e1e1e;
+  margin: 0;
+  text-align: center;
+ 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: stretch;
+  height: 800px;
+}
+
+.content, .side-menu, .side-info {
+  padding: 5px;
+  align-items: center;
+
+}
+
+header, footer {
+  background-color: #E6E6FA;
+  padding: 20px 5px;
+}
+
+.content {
+  background-color: #fcfcfc;
+  width: 50%;
+  display: flex;
+}
+
+.side-menu {
+  background-color: #FFE4B5;
+  order: -1;
+  width: 25%;
+
+}
+
+.side-info {
+  background-color: #dcdcdc;
+  width: 25%;
+
+}

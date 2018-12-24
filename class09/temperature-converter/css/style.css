@@ -1,0 +1,15 @@
+body {
+    font-family: Helvetica, san-serif;
+    text-align: center;
+    background: white;
+
+  }
+
+
+
+#output {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}

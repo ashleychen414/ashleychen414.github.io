@@ -1,0 +1,12 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+h1, h2, .temp, .humidity, .rain, .output {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+h1, h2 {
+    color: darkcyan;
+}
+
